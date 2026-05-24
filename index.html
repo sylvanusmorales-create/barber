@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The Barber- Salon coiffure barbier pedicure Cotonou Benin." />
+  <meta name="theme-color" content="#e6cf08c2" />
+  <title>THE BARBER — Cotonou</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header id="site-header">
+    <div class="container nav-inner">
+      <a href="#hero" class="logo">
+        <span class="logo-name">The Barber</span>
+        <span class="logo-sub">Coiffure · Barbier · Pédicure & Manucure</span>
+      </a>
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="main-nav">
+        <ul>
+          <li class="has-dropdown" id="nav-services">
+            <a href="#" class="nav-parent">
+              Nos Services
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+            </a>
+            <ul class="dropdown" id="nav-services-menu">
+              <li><a href="#coiffure">Coiffure</a></li>
+              <li><a href="#pedicure">Pédicure / Manucure</a></li>
+              <li><a href="#soin">Jelly Pédicure</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="hero-titre-bloc">
+      <div class="container">
+        <p class="hero-eyebrow">Cotonou, Bénin</p>
+        <h1 class="hero-title">The<br><em>Barber</em></h1>
+        <p class="hero-tagline">Coiffure · Barbier · Pédicure & Manucure</p>
+      </div>
+    </div>
+    <div class="hero-image-pleine">
+      <img src="assets/images/fondsalon.jpeg" alt="The Barber" loading="eager" />
+    </div>
+    <div class="hero-cta-bloc">
+      <div class="container">
+        <a href="#coiffure" class="hero-cta">
+          Voir nos services
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="intro-strip">
+    <div class="container intro-strip-inner">
+      <div class="strip-item"><strong>1+</strong>Années d'expérience</div>
+      <div class="strip-item"><strong>20+</strong>Services proposés</div>
+      <div class="strip-item"><strong>85%</strong>Satisfaction client</div>
+      <div class="strip-item"><strong>7j/7</strong>Ouvert toute la semaine</div>
+    </div>
+  </div>
+
+  <section id="apropos">
+    <div class="container apropos-inner">
+      <div class="apropos-text reveal">
+        <p class="section-subtitle">Notre histoire</p>
+        <h2 class="section-title">Un salon pensé pour <span>l'excellence</span></h2>
+        <div class="gold-line"></div>
+        <p class="apropos-desc">The Barber est né d'une passion simple : offrir à chaque client une expérience soignée, dans un cadre qui respire le style. Installé au cœur de Cotonou, notre salon accueille hommes, femmes et enfants dans une atmosphère chaleureuse où chaque détail compte.</p>
+        <p class="apropos-desc">Notre équipe maîtrise les techniques les plus actuelles — des coupes classiques aux dreadlocks, du rasage traditionnel à la mousse jusqu'au jelly pédicure premium.</p>
+        <div class="apropos-tags">
+          <span class="tag">Coiffure homme & enfant</span>
+          <span class="tag">Barbier expert</span>
+          <span class="tag">Pédicure & Manucure</span>
+          <span class="tag">Dreadlocks</span>
+          <span class="tag">Waves & Curly</span>
+          <span class="tag">Jelly pédicure</span>
+        </div>
+      </div>
+      <div class="apropos-visuel reveal">
+        <div class="apropos-card">
+          <div class="apropos-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--or)" stroke-width="1.4" stroke-linecap="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+          <h3>Notre savoir-faire</h3>
+          <ul class="savoir-list">
+            <li>Maîtrise des coupes tendance & classiques</li>
+            <li>Rasage précis à la mousse ou à la tondeuse</li>
+            <li>Spécialistes dreadlocks toutes étapes</li>
+            <li>Soin des pieds & mains classique ou Jelly</li>
+            <li>Teintures et colorations professionnelles</li>
+            <li>Piercing oreille & nez en conditions sûres</li>
+          </ul>
+        </div>
+        <div class="apropos-card apropos-card-dark">
+          <div class="apropos-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--or)" stroke-width="1.4" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+          <h3>Nos engagements</h3>
+          <ul class="savoir-list">
+            <li>Matériel stérilisé à chaque client</li>
+            <li>Produits de qualité professionnelle</li>
+            <li>Accueil chaleureux</li>
+            <li>Prix transparents, sans surprise</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="coiffure">
+    <div class="container">
+      <p class="section-subtitle reveal">Nos prestations</p>
+      <h2 class="section-title reveal">Services <span>Coiffure</span></h2>
+      <div class="gold-line reveal"></div>
+      <div class="services-grid">
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/services/Coiffuresimple.jpg" alt="Coiffure simple" loading="lazy"></div><div class="card-body"><p class="card-name">Coiffure simple</p><p class="card-price">5 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/services/Rasagealamousse.jpg" alt="Rasage mousse" loading="lazy"></div><div class="card-body"><p class="card-name">Rasage à la mousse</p><p class="card-price">5 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/services/rasagetondeuse.jpg" alt="Rasage tondeuse" loading="lazy"></div><div class="card-body"><p class="card-name">Rasage aux tondeuses</p><p class="card-price">5 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/services/coiffuremodeleettendance.jpg" alt="Modele tendance" loading="lazy"></div><div class="card-body"><p class="card-name">Coiffure modèle & tendance</p><p class="card-price">5 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/services/coiffuresimpleenfants.jpg" alt="Coiffure enfant" loading="lazy"></div><div class="card-body"><p class="card-name">Coiffure simple enfant (7–12 ans)</p><p class="card-price">3 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/services/coiffuremodeleettendanceenfants.jpg" alt="Tendance enfant" loading="lazy"></div><div class="card-body"><p class="card-name">Coiffure modèle & tendance enfant</p><p class="card-price">4 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/services/contourbarbeepaisse.jpg" alt="Contour barbe" loading="lazy"></div><div class="card-body"><p class="card-name">Contour pour barbe épaisse</p><p class="card-price">3 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/services/coiffuretendanceetbarbeepaisse.jpg" alt="Tendance barbe" loading="lazy"></div><div class="card-body"><p class="card-name">Coiffure tendance + barbe épaisse</p><p class="card-price">8 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/services/teintenoir.jpg" alt="Teinte noire" loading="lazy"></div><div class="card-body"><p class="card-name">Teinte noire uniquement</p><p class="card-price">3 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/services/gommagevisage.jpg" alt="Gommage visage" loading="lazy"></div><div class="card-body"><p class="card-name">Gommage visage après coiffure</p><p class="card-price">3 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/services/Teinturedecouleur.jpg" alt="Teinture couleur" loading="lazy"></div><div class="card-body"><p class="card-name">Teinture de couleur</p><p class="card-price">15 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/services/contour.jpg" alt="Contour" loading="lazy"></div><div class="card-body"><p class="card-name">Contour</p><p class="card-price">3 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/services/debutdreadlocks.jpg" alt="Debut dreadlocks" loading="lazy"></div><div class="card-body"><p class="card-name">Début dreadlocks</p><p class="card-price">100 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/services/resseragedreadlocks.jpg" alt="Resserrage dreadlocks" loading="lazy"></div><div class="card-body"><p class="card-name">Resserrage dreadlocks</p><p class="card-price">50 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/services/extensiondreadlocks.jpg" alt="Extension dreadlocks" loading="lazy"></div><div class="card-body"><p class="card-name">Extension dreadlocks</p><p class="card-price">À partir de 200 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/services/waves.jpg" alt="Waves" loading="lazy"></div><div class="card-body"><p class="card-name">Waves</p><p class="card-price">10 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/services/curly.jpg" alt="Curly" loading="lazy"></div><div class="card-body"><p class="card-name">Curly</p><p class="card-price">5 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/services/shampoing.jpg" alt="Shampooing" loading="lazy"></div><div class="card-body"><p class="card-name">Shampooing</p><p class="card-price">3 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/services/piercingoreille.jpg" alt="Piercing oreille" loading="lazy"></div><div class="card-body"><p class="card-name">Piercing oreille</p><p class="card-price">3 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/services/piercingnez.png" alt="Piercing nez" loading="lazy"></div><div class="card-body"><p class="card-name">Piercing nez</p><p class="card-price">3 000 F</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pedicure">
+    <div class="container">
+      <p class="section-subtitle reveal">Bien-être & soin</p>
+      <h2 class="section-title reveal">Pédicure <span>& Manucure</span></h2>
+      <div class="gold-line reveal"></div>
+      <h3 class="pedi-categorie-title reveal">Pédicure Manucure — Classique</h3>
+      <div class="services-grid">
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/Pedicure&Manicure/Piedsetmainsdurshomme.jpg" alt="Pied main durs homme" loading="lazy"></div><div class="card-body"><span class="card-gender card-gender--homme">Homme</span><p class="card-name">Pied et main durs</p><p class="card-price">25 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/Pedicure&Manicure/Piedsetmainsmoinsdurshomme.jpg" alt="Pied main moins durs homme" loading="lazy"></div><div class="card-body"><span class="card-gender card-gender--homme">Homme</span><p class="card-name">Pied et main moins durs</p><p class="card-price">20 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/Pedicure&Manicure/Piedsetmainsnormalhomme.jpg" alt="Pied main normal homme" loading="lazy"></div><div class="card-body"><span class="card-gender card-gender--homme">Homme</span><p class="card-name">Pied et main normal</p><p class="card-price">20 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/Pedicure&Manicure/Piedsetmainsdursfemme.jpg" alt="Pied main durs femme" loading="lazy"></div><div class="card-body"><span class="card-gender card-gender--femme">Femme</span><p class="card-name">Pied et main durs</p><p class="card-price">25 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/Pedicure&Manicure/Piedsetmainsmoinsdursfemme.jpg" alt="Pied main moins durs femme" loading="lazy"></div><div class="card-body"><span class="card-gender card-gender--femme">Femme</span><p class="card-name">Pied et main moins durs</p><p class="card-price">20 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/Pedicure&Manicure/Piedsetmainsnormalfemme.png" alt="Pied main normal femme" loading="lazy"></div><div class="card-body"><span class="card-gender card-gender--femme">Femme</span><p class="card-name">Pied et main normal</p><p class="card-price">18 000 F</p></div></div>
+      </div>
+      <h3 class="pedi-categorie-title reveal" id="soin">Jelly Pédicure</h3>
+      <div class="services-grid">
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/Soin/Piedsetmainsdurshomme.jpg" alt="Jelly pied main durs homme" loading="lazy"></div><div class="card-body"><span class="card-gender card-gender--homme">Homme</span><p class="card-name">Pied et main durs</p><p class="card-price">60 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/Soin/Piedsetmainsmoinsdurshomme.jpg" alt="Jelly pied main moins durs homme" loading="lazy"></div><div class="card-body"><span class="card-gender card-gender--homme">Homme</span><p class="card-name">Pied et main moins durs</p><p class="card-price">55 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/Soin/Piedsetmainsnormalhomme.jpg" alt="Jelly pied main normal homme" loading="lazy"></div><div class="card-body"><span class="card-gender card-gender--homme">Homme</span><p class="card-name">Pied et main normal</p><p class="card-price">45 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/Soin/Piedsetmainsdursfemme.jpg" alt="Jelly pied main durs femme" loading="lazy"></div><div class="card-body"><span class="card-gender card-gender--femme">Femme</span><p class="card-name">Pied et main durs</p><p class="card-price">55 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/Soin/Piedsetmainsmoinsdursfemme.jpg" alt="Jelly pied main moins durs femme" loading="lazy"></div><div class="card-body"><span class="card-gender card-gender--femme">Femme</span><p class="card-name">Pied et main moins durs</p><p class="card-price">50 000 F</p></div></div>
+        <div class="service-card reveal"><div class="card-photo"><img src="assets/images/Soin/Piedsetmainsnormalfemme.jpg" alt="Jelly pied main normal femme" loading="lazy"></div><div class="card-body"><span class="card-gender card-gender--femme">Femme</span><p class="card-name">Pied et main normal</p><p class="card-price">45 000 F</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <p class="section-subtitle reveal">Planifier votre visite</p>
+      <h2 class="section-title reveal">Prendre <span>Rendez-vous</span></h2>
+      <div class="gold-line reveal"></div>
+      <div class="contact-wrapper">
+        <div class="reveal">
+          <div class="contact-info-item">
+            <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--or)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
+            <div><p class="contact-label">Adresse</p><p class="contact-value">Cotonou, Bénin<br><small>Précision disponible sur demande</small></p></div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--or)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.07 11.5 19.79 19.79 0 0 1 1 2.85 2 2 0 0 1 2.95 1h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L7.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 21 16.92z"/></svg></div>
+            <div><p class="contact-label">Téléphone / WhatsApp</p><p class="contact-value">+229 01 59012334</p></div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--or)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></div>
+            <div><p class="contact-label">Email</p><p class="contact-value">sylvanusmorales@gmail.com</p></div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--or)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+            <div><p class="contact-label">Horaires</p><p class="contact-value">Lun – Dimanche: 10h00 – 21h00</p></div>
+          </div>
+          <div class="map-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--or)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+            <span>Nous trouver — Plan disponible sur demande</span>
+          </div>
+        </div>
+        <div class="reveal">
+          <div class="form-field">
+            <label for="res-nom">Votre nom complet</label>
+            <input type="text" id="res-nom" placeholder="Jean DOSSOU" autocomplete="name" />
+          </div>
+          <div class="form-field">
+            <label for="res-tel">Téléphone / WhatsApp</label>
+            <input type="tel" id="res-tel" placeholder="+229 XX XXX XXX" autocomplete="tel" />
+          </div>
+          <div class="form-field">
+            <label for="res-service">Choisir une prestation</label>
+            <select id="res-service">
+              <option value="">-- Sélectionnez une prestation --</option>
+              <optgroup label="✂ Coiffure">
+                <option value="Coiffure simple | 5 000 F">Coiffure simple — 5 000 F</option>
+                <option value="Rasage a la mousse | 5 000 F">Rasage à la mousse — 5 000 F</option>
+                <option value="Rasage aux tondeuses | 5 000 F">Rasage aux tondeuses — 5 000 F</option>
+                <option value="Coiffure modele et tendance | 5 000 F">Coiffure modèle et tendance — 5 000 F</option>
+                <option value="Coiffure simple enfant | 3 000 F">Coiffure simple enfant — 3 000 F</option>
+                <option value="Coiffure modele enfant | 4 000 F">Coiffure modèle enfant — 4 000 F</option>
+                <option value="Contour barbe epaisse | 3 000 F">Contour barbe épaisse — 3 000 F</option>
+                <option value="Coiffure tendance + barbe | 8 000 F">Coiffure tendance + barbe — 8 000 F</option>
+                <option value="Teinte noire | 3 000 F">Teinte noire — 3 000 F</option>
+                <option value="Gommage visage | 3 000 F">Gommage visage — 3 000 F</option>
+                <option value="Teinture de couleur | 15 000 F">Teinture de couleur — 15 000 F</option>
+                <option value="Contour | 3 000 F">Contour — 3 000 F</option>
+                <option value="Debut dreadlocks | 100 000 F">Début dreadlocks — 100 000 F</option>
+                <option value="Resserrage dreadlocks | 50 000 F">Resserrage dreadlocks — 50 000 F</option>
+                <option value="Extension dreadlocks | a partir de 200 000 F">Extension dreadlocks — à partir de 200 000 F</option>
+                <option value="Waves | 10 000 F">Waves — 10 000 F</option>
+                <option value="Curly | 5 000 F">Curly — 5 000 F</option>
+                <option value="Shampooing | 3 000 F">Shampooing — 3 000 F</option>
+                <option value="Piercing oreille | 3 000 F">Piercing oreille — 3 000 F</option>
+                <option value="Piercing nez | 3 000 F">Piercing nez — 3 000 F</option>
+              </optgroup>
+              <optgroup label="💕 Pédicure Classique">
+                <option value="Pedicure classique Homme - Pied et main durs | 25 000 F">Homme — Pied et main durs — 25 000 F</option>
+                <option value="Pedicure classique Homme - Pied et main moins durs | 20 000 F">Homme — Pied et main moins durs — 20 000 F</option>
+                <option value="Pedicure classique Homme - Pied et main normal | 20 000 F">Homme — Pied et main normal — 20 000 F</option>
+                <option value="Pedicure classique Femme - Pied et main durs | 25 000 F">Femme — Pied et main durs — 25 000 F</option>
+                <option value="Pedicure classique Femme - Pied et main moins durs | 20 000 F">Femme — Pied et main moins durs — 20 000 F</option>
+                <option value="Pedicure classique Femme - Pied et main normal | 18 000 F">Femme — Pied et main normal — 18 000 F</option>
+              </optgroup>
+              <optgroup label="✨ Jelly Pédicure">
+                <option value="Jelly Pedicure Homme - Pied et main durs | 60 000 F">Homme — Pied et main durs — 60 000 F</option>
+                <option value="Jelly Pedicure Homme - Pied et main moins durs | 55 000 F">Homme — Pied et main moins durs — 55 000 F</option>
+                <option value="Jelly Pedicure Homme - Pied et main normal | 45 000 F">Homme — Pied et main normal — 45 000 F</option>
+                <option value="Jelly Pedicure Femme - Pied et main durs | 55 000 F">Femme — Pied et main durs — 55 000 F</option>
+                <option value="Jelly Pedicure Femme - Pied et main moins durs | 50 000 F">Femme — Pied et main moins durs — 50 000 F</option>
+                <option value="Jelly Pedicure Femme - Pied et main normal | 45 000 F">Femme — Pied et main normal — 45 000 F</option>
+              </optgroup>
+            </select>
+          </div>
+          <div class="form-date-row">
+            <div class="form-field">
+              <label for="res-date">Date souhaitée</label>
+              <input type="date" id="res-date" />
+            </div>
+            <div class="form-field">
+              <label for="res-heure">Heure souhaitée</label>
+              <select id="res-heure">
+                <option value="">-- Choisir une heure --</option>
+
+                <option value="10h00">10h00</option><option value="10h30">10h30</option>
+                <option value="11h00">11h00</option><option value="11h30">11h30</option>
+                <option value="12h00">12h00</option><option value="12h30">12h30</option>
+                <option value="13h00">13h00</option><option value="13h30">13h30</option>
+                <option value="14h00">14h00</option><option value="14h30">14h30</option>
+                <option value="15h00">15h00</option><option value="15h30">15h30</option>
+                <option value="16h00">16h00</option><option value="16h30">16h30</option>
+                <option value="17h00">17h00</option><option value="17h30">17h30</option>
+                <option value="18h00">18h00</option><option value="18h30">18h30</option>
+                <option value="19h00">19h00</option><option value="19h30">19h30</option>
+                <option value="20h00">20h00</option>
+              </select>
+            </div>
+          </div>
+          <button class="btn-send" id="btn-reserver">
+            Réserver via WhatsApp
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="16" height="16"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+          <p id="form-feedback">Votre demande a été envoyée sur WhatsApp. Nous vous confirmons très vite !</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="footer-logo-name">The Barber</div>
+          <div class="footer-logo-sub">Coiffure · Barbier · Pédicure & Manucure</div>
+        </div>
+        <div class="social-links">
+          <a href="https://wa.me/2290159012334" class="social-link" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></a>
+        </div>
+      </div>
+      <p class="footer-copy">&copy; <span id="yr"></span> The Barber — Cotonou, Bénin. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
